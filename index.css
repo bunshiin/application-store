@@ -1,0 +1,106 @@
+@import url("https://fonts.cdnfonts.com/css/sofia-pro");
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.25s all ease;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Sofia Pro", sans-serif;
+  transition: 0.2s linear;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #171B34;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 15px;
+}
+
+.appPanel {
+  background-color: #202544;
+  height: 210px;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.PanelLeft {
+  position: absolute;
+  top: 55px;
+  left: 50px;
+  display: flex;
+}
+
+.panelItem {
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.panelButton {
+  background-color: #FF529B;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 14px;
+  border-radius: 10px;
+}
+
+.panelButton:hover {
+  background-color: #e55a76;
+}
+
+.PanelRight {
+  position: absolute;
+  top: 90px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.PanelRight .panelRate {
+  margin-top: 1.2rem;
+  background-color: #171B34;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.PanelRight .panelRate i {
+  color: #ECC86B;
+}
+
+.PanelRight .panelRate span {
+  color: white;
+  font-size: 1rem;
+}
+
+.header-app  {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.header-app h2 {
+  color: #fb7cb1;
+}
+
+.header-app i {
+  color: rgb(235, 175, 53);
+  font-size: 2rem;
+}
+
